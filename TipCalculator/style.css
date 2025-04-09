@@ -1,0 +1,82 @@
+/* Reset and base font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body styling */
+body {
+    height: 100vh;
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    padding: 20px;
+}
+
+/* Container box */
+.container {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 320px;
+}
+
+/* Headings */
+.container h1 {
+    margin-bottom: 20px;
+    color: #2193b0;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+}
+
+/* Input fields */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #2193b0;
+}
+
+/* Submit Button */
+#Mysubmit {
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: #2193b0;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#Mysubmit:hover {
+    background-color: #0b7d99;
+}
+
+/* Result text */
+#totalAmount {
+    margin-top: 25px;
+    font-size: 22px;
+    color:black;
+    text-align: center;
+}
